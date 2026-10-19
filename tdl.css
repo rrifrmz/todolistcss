@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(6, 59, 16);
+    font-family: "segoe ui";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todocontainer {
+    background-color: rgb(209, 206, 209);
+    padding: 30px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(9, 80, 39);
+}   
+
+.inputsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+button {
+    font-family: "segoe ui";
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 37, 12);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(10, 69, 7);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-family: "segoe ui";
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgb(109, 125, 118);
+    color: rgb(3, 41, 15);
+    padding: 10px 10px 10px 25px;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    background-color: rgb(74, 139, 88);
+}
+
+.checked {
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+}
+
+li button {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+li button:hover {
+    color: rgb(255, 0, 0);
+}
